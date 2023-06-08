@@ -210,7 +210,10 @@ body {
 }
 
 .text-block {
-    max-width: 250px;
+    max-width: 325px;
     max-height: auto;
 }
 
+.move {
+    margin-left: 125px;
+}
