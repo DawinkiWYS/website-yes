@@ -217,3 +217,7 @@ body {
 .move {
     margin-left: 125px;
 }
+
+.gap {
+    gap: 150px;
+}
