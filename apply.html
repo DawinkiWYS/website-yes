@@ -2,53 +2,68 @@
 <html>
 
 <head>
-    <title>Hot Beans</title>
-    <link href="style.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hot Beans</title>
+  <link href="style.css" rel="stylesheet">
 </head>
 
-<body style="text-align: center;">
+<body>
 
-    <div class="navbar">
-        <div class="navbar-flex">
-            <img class="navlogo" src="/images/hot_bean.png">
-            <ul class="navbar-list">
-                <li class="nav-button"><a href="/">Home</a></li>
-                <li class="nav-button"><a href="/about">About us</a></li>
-                <li class="nav-button"><a href="/team">Team</a></li>
-                <li class="nav-button"><a href="/learning">Learning</a></li>
-                <li class="nav-button"><a href="/apply">Apply</a></li>
-            </ul>
-        </div>
+  <div class="navbar">
+    <div class="navbar-flex">
+      <img class="navlogo" src="/images/hot_bean.png">
+      <ul class="navbar-list">
+        <li class="nav-button"><a href="/">Home</a></li>
+        <li class="nav-button"><a href="/about">About</a></li>
+        <li class="nav-button"><a href="/team">Team</a></li>
+        <li class="nav-button"><a href="/learning">Learning</a></li>
+        <li class="nav-button"><a href="/apply">Apply</a></li>
+      </ul>
     </div>
+  </div>
 
-      </style>
-      </head>
-      <body>
-      
-      <form>
-        <div class="container">
-          <h1>Application Form</h1>
-          <p>Please fill in this form to apply to our company.</p>
-          <hr>
-      
-          <label for="name"><b>Name/Surname </b></label>
-          <input type="text" placeholder="Name/Surname" name="email" id="email" required>
-      
-          <label for="psw"><b>Email</b></label>
-          <input type="email" placeholder="Enter Email" name="psw" id="psw" required>
-      
-          <label for="Telephone"><b>Telephone</b></label>
-          <input type="telephone" placeholder="Telephone" name="psw-repeat" id="psw-repeat" required>
+  </style>
+  </head>
 
-          <label for="job"><b>Job you apply for</b></label>
-          <input type="telephone" placeholder="Job Name" name="psw-repeat" id="psw-repeat" required>
-          <hr>
+  <body>
+
+    <form>
+      <div>
+        <h1 class="yay">Application Form</h1>
+        <p class="yay">Please fill in this form to apply to our company.</p>
+        <hr>
+
+        <div style="justify-content: center;" class="flex aplication gap">
+          <div class="flex application helpme">
+            <div>
+              <label for="name"><b>Name/Surname</b></label>
+              <input type="text" placeholder="Name/Surname" name="email" id="email" required>
+            </div>
+  
+            <div>
+              <label for="psw"><b>Email</b></label>
+              <input type="email" placeholder="Email" name="psw" id="psw" required>
+            </div>
+  
+            <div>
+              <label for="Telephone"><b>Telephone</b></label>
+              <input type="telephone" placeholder="Telephone" name="psw-repeat" id="psw-repeat" required>
+            </div>
+  
+            <div>
+              <label for="job"><b>Job you apply for</b></label>
+              <input type="telephone" placeholder="Job Name" name="psw-repeat" id="psw-repeat" required>
+            </div>
+          </div>
+          </div>
+<div class="flex" style="justify-content: center; margin-top: 10px;">
+  <button style="justify-self: center;" type="submit">Register</button>
+</div>
         
-          <button type="submit">Register</button>
-        </div>
-        
-      </form>
-      
-</body>
+      </div>
+
+    </form>
+
+  </body>
 
 </html>

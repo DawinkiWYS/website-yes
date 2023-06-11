@@ -11,28 +11,120 @@
     border-radius: 0.75rem;
 }
 
-/* Placeholder styles for images and text */
-.image-container {
-    display: inline-block;
-    vertical-align: top;
-    width: 33%;
-    padding: 10px;
+@media (max-width: 640px) {
+    .helpme {
+        gap: 2px 0;
+        flex-direction: column;
+    }
+    .helpme > div > label ::after {
+        content: ":";
+    }
+    .navlogo {
+        display: none;
+    }
+
+    .learning-margin {
+        margin-left: 10px !important;
+        margin-top: 10px !important;
+        margin-right: 50px !important;
+    }
+
+    .ghp {
+        padding-left: 5px !important;
+    }
+
+    .img-1 {
+        display: none;
+    }
+
+    .text-padding1 {
+        margin-left: 10px !important;
+        margin-top: 10px !important;
+        margin-right: 50px !important;
+    }
+
+    .navbar-list {
+        margin: 5px 0 5px 0 !important;
+        padding-left: 0;
+    }
+
+    .button-text {
+        margin-left: 10px !important;
+        margin-top: 10px !important;
+        padding-right: 65px !important;
+    }
+
+    .navbar-flex {
+        justify-content: center;
+    }
+
+    .hui {
+        margin-top: 10px !important;
+        margin-left: 10px !important;
+    }
+
+    .text-padding {
+        margin-left: 10px !important;
+        margin-right: 0px !important;
+        margin-bottom: 50px !important;
+    }
+
+    .flex-row {
+        flex-direction: column !important;
+    }
+
+    .team1 {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .text-align {
+        text-align: left !important;
+    }
+
+    .aplication {
+        flex-direction: column !important;
+    }
+
+    .taco {
+        display: none !important;
+    }
+
+    .about-font2 {
+        margin-left: 5px !important;
+        margin-top: 5px !important;
+        font-size: 16px !important;
+    }
+
+    .move {
+        margin-left: 5px !important;
+    }
+
+    .icons {
+        margin-left: 5px !important;
+    }
+    .learning-margin {
+        margin-left: 5px !important;
+    }
+
 }
 
-.text-container {
-    display: inline-block;
-    vertical-align: top;
-    width: 66%;
-    padding: 10px;
+@media (max-width: 10000px) {
+    .pop {
+        text-align: center;
+    }
+}
+
+.about-font {
+    font-size: 18px
 }
 
 .navbar-list {
     display: flex;
     flex-direction: row;
-    gap: 10px 20px;
+    gap: 5px 10px;
     justify-content: right;
-    margin-left: auto;
-
+    margin-left: auto
 }
 
 .navlogo {
@@ -65,10 +157,14 @@ a {
     color: black;
 }
 
- a :visited {
+a :visited {
     color: black;
- }
+}
+
 .img-1 {
+    margin-top: 100px;
+    margin-right: 200px;
+    margin-left: 10px;
     width: 700px;
     height: 540px;
     justify-content: right;
@@ -130,20 +226,27 @@ a {
     margin-bottom: 200px;
 }
 
-.img-padding {
-    margin-top: 100px;
-    margin-right: 200px;
-    margin-left: 10px;
-}
-
 .hui {
     margin-left: 250px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
+
+.ghp {
+    padding-left: 100px;
+}
+
 
 body {
     background-color: #c8b6ff;
     font-family: 'Geologica', sans-serif;
+}
+
+
+
+.yay {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .button {
@@ -162,6 +265,10 @@ body {
     padding: 10px 15px 10px 15px;
 }
 
+.aplication {
+    align-items: center;
+    justify-content: center;
+}
 
 .nav-button {
     color: black;
@@ -170,6 +277,10 @@ body {
     padding: 3px 7px 3px 7px;
     display: flex;
     align-items: center;
+}
+
+.navbar-list :hover {
+    background-color: aquamarine;
 }
 
 .b-about {
@@ -189,11 +300,6 @@ body {
     width: 75px;
     height: 75px;
     border-radius: 0.50rem;
-}
-
-.center {
-    align-items: center;
-    justify-content: center;
 }
 
 .overflow {
@@ -220,4 +326,9 @@ body {
 
 .gap {
     gap: 150px;
+}
+
+.solid {
+    border-style: solid;
+    border-radius: 0.50rem;
 }
